@@ -38,6 +38,5 @@ public class OpenChat {
         System.out.println(Arrays.toString(answer));
 
         return answer;
-
     }
 }

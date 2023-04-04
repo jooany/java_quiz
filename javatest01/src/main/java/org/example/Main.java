@@ -1,9 +1,6 @@
 package org.example;
 
-import org.example.practice.DiscountSale;
-import org.example.practice.NumToArray01;
-import org.example.practice.OpenChat;
-import org.example.practice.StringtoInt;
+import org.example.practice.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +13,10 @@ public class Main {
 //                                        new String[]{"chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana"});
 //
         // OpenChat 카카오 오픈채팅
-        OpenChat.OpenChatSolution(new String[]{"Enter uid1234 Muzi", "Enter uid4567 Prodo", "Leave uid1234", "Enter uid1234 Prodo", "Change uid4567 Ryan"});
+//        OpenChat.OpenChatSolution(new String[]{"Enter uid1234 Muzi", "Enter uid4567 Prodo", "Leave uid1234", "Enter uid1234 Prodo", "Change uid4567 Ryan"});
+
+        // Stack활용 : 괄호 쌍 체크
+        System.out.println(StackEx01.StackEx01Solution());
 
     }
 }
