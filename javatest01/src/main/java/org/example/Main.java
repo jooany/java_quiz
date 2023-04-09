@@ -16,7 +16,9 @@ public class Main {
 //        OpenChat.OpenChatSolution(new String[]{"Enter uid1234 Muzi", "Enter uid4567 Prodo", "Leave uid1234", "Enter uid1234 Prodo", "Change uid4567 Ryan"});
 
         // Stack활용 : 괄호 쌍 체크
-        System.out.println(StackEx01.StackEx01Solution());
+//        System.out.println(StackEx01.StackEx01Solution());
 
+        // Stack활용2 : 같은 숫자반복X
+        System.out.println(StackEx02.StackEx02Soulution());
     }
 }
