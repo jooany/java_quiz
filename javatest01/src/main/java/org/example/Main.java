@@ -2,6 +2,8 @@ package org.example;
 
 import org.example.practice.*;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 //        NumToArray01.NumToArray01Solution(12345);
@@ -19,6 +21,9 @@ public class Main {
 //        System.out.println(StackEx01.StackEx01Solution());
 
         // Stack활용2 : 같은 숫자반복X
-        System.out.println(StackEx02.StackEx02Soulution());
+//        System.out.println(Arrays.toString(StackEx02.StackEx02Soulution()));
+
+        // 최솟값 만들기 - 두 배열의 각 원소를 곱해서 누적한 값이 최솟값인 경우 반환
+        System.out.println(MakeMin.MakeMinSolution());
     }
 }
