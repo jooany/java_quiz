@@ -24,6 +24,9 @@ public class Main {
 //        System.out.println(Arrays.toString(StackEx02.StackEx02Soulution()));
 
         // 최솟값 만들기 - 두 배열의 각 원소를 곱해서 누적한 값이 최솟값인 경우 반환
-        System.out.println(MakeMin.MakeMinSolution());
+//        System.out.println(MakeMin.MakeMinSolution());
+
+        // 자연수 n을 연속한 자연수의 합으로 표현할 수 있는 방법의 개수
+        System.out.println(MathEx01.MathEx01Solution());
     }
 }
