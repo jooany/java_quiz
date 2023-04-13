@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.practice.*;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {
@@ -27,6 +28,11 @@ public class Main {
 //        System.out.println(MakeMin.MakeMinSolution());
 
         // 자연수 n을 연속한 자연수의 합으로 표현할 수 있는 방법의 개수
-        System.out.println(MathEx01.MathEx01Solution());
+//        System.out.println(MathEx01.MathEx01Solution());
+
+        // 완전탐색
+        // 중앙에는 노란색으로 칠해져 있고 테두리 1줄은 갈색으로 칠해져 있는 격자 모양 카펫
+        // 갈색 격자의 수 brown, 노란색 격자의 수 yellow가 매개변수로 주어질 때 카펫의 가로, 세로 크기를 순서대로 배열에 담아 return
+        System.out.println(Arrays.toString(SearchEx01.solution(24, 24)));
     }
 }
