@@ -15,7 +15,6 @@ public class SearchEx01 {
      세로는 1, 가로는 (brown-4)/2 -1 로 초기화하여 while문을 반복할 때마다, 세로는 1씩 더하고 가로는 1씩 빼면서
      [노란색 격자의 가로 + 노란색 격자의 세로 = (갈색 격자의 수-4)/2] 인 것을 이용하여 [가로*세로 = 노란색 격자의 수]가 되는 경우를 찾아
      노란색 격자의 가로+2, 노란색 격자의세로+2를 더한 값을 배열에 담아 return 한다.
-
     * */
     public static int[] solution(int brown, int yellow) {
 //         도출되어야 하는 return 값 : [8,6]

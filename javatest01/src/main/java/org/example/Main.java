@@ -33,6 +33,10 @@ public class Main {
         // 완전탐색
         // 중앙에는 노란색으로 칠해져 있고 테두리 1줄은 갈색으로 칠해져 있는 격자 모양 카펫
         // 갈색 격자의 수 brown, 노란색 격자의 수 yellow가 매개변수로 주어질 때 카펫의 가로, 세로 크기를 순서대로 배열에 담아 return
-        System.out.println(Arrays.toString(SearchEx01.solution(24, 24)));
+//        System.out.println(Arrays.toString(SearchEx01.solution(24, 24)));
+
+
+        // BFS
+        System.out.println(SearchEx02.solution(new int[][]{{1, 1, 1, 1}, {1, 0, 0, 1}, {1, 1, 1, 1}, {1,1, 0, 1}, {0, 0, 0, 1}}));
     }
 }
