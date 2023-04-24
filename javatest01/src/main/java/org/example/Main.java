@@ -40,6 +40,9 @@ public class Main {
 //        System.out.println(SearchEx02.solution(new int[][]{{1, 1, 1, 1}, {1, 0, 0, 1}, {1, 1, 1, 1}, {1,1, 0, 1}, {0, 0, 0, 1}}));
 
         // 다음 큰 숫자
-        System.out.println(MathEx02.solution());
+//        System.out.println(MathEx02.solution());
+
+        // 피보나치 수 구하기
+        System.out.println(MathEx03.solution());
     }
 }
