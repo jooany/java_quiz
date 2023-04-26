@@ -43,6 +43,9 @@ public class Main {
 //        System.out.println(MathEx02.solution());
 
         // 피보나치 수 구하기
-        System.out.println(MathEx03.solution());
+//        System.out.println(MathEx03.solution());
+
+        // 짝지어 제거하기
+        System.out.println(RemovePairs.solution());
     }
 }
