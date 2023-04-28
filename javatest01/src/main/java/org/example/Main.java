@@ -46,6 +46,9 @@ public class Main {
 //        System.out.println(MathEx03.solution());
 
         // 짝지어 제거하기
-        System.out.println(RemovePairs.solution());
+//        System.out.println(RemovePairs.solution());
+
+        // 멀리뛰기
+        System.out.println(LongJump.solution());
     }
 }
