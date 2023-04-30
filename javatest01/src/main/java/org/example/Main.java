@@ -49,6 +49,9 @@ public class Main {
 //        System.out.println(RemovePairs.solution());
 
         // 멀리뛰기
-        System.out.println(LongJump.solution());
+//        System.out.println(LongJump.solution());
+
+        // 영어 끝말잇기
+        System.out.println(Arrays.toString(EnglishEnding.solution()));
     }
 }
