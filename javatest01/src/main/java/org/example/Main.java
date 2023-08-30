@@ -1,12 +1,33 @@
 package org.example;
 
-import org.example.practice.*;
+import org.example.practice.array.ArrayEx1;
 
-import java.lang.reflect.Array;
+import java.io.*;
 import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+//        //입력
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        StringTokenizer st = new StringTokenizer(br.readLine());
+//
+//        // 풀이과정
+//        int answer = 0;
+//        String bString = String.valueOf(st.countTokens());
+//
+//        for(int i=0; i<a; i++){
+//            answer += (int) bString.charAt(i)-'0';
+//        }
+//
+//
+//        // 출력
+//        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+//        bw.write(answer); // 버퍼에 넣을 내용
+//        bw.flush(); // 내용 출력
+//        bw.close();
+
+
+
 //        NumToArray01.NumToArray01Solution(12345);
 //        System.out.println(StringtoInt.stringToInTsolution(18));
 
@@ -52,6 +73,10 @@ public class Main {
 //        System.out.println(LongJump.solution());
 
         // 영어 끝말잇기
-        System.out.println(Arrays.toString(EnglishEnding.solution()));
+//        System.out.println(Arrays.toString(EnglishEnding.solution()));
+        
+        // 교점에 별 만들기
+        System.out.println(Arrays.toString(ArrayEx1.solution(new int[][]{{2, -1, 4}, {-2, -1, 4}, {0, -1, 1}, {5, -8, -12}, {5, 8, 12}})));
     }
+
 }
