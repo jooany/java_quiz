@@ -58,6 +58,7 @@ public class MultiAdvisorTest {
 
         proxy.save();
     }
+
     @Slf4j
     static class Advice1 implements MethodInterceptor {
 
